@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #DDD;
+}
+header > article {
+    background-color: black;
+    height: 200px;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+}
+header > article > h1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    font-size: 40px;
+}
+nav {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 40px;
+    height: 100px;
+}
+nav > a {
+    color: yellow; 
+    margin: 0 20px 0 20px;
+    font-size: 22px;
+    
+}
+#Casamento{
+    background-color: darkblue;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px;
+    height: 250px;
+    margin-top: 40px;
+}
+#Casamento > h3 {
+    text-align: center;
+    padding: 20px;
+    color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+}
+#Casamento > h5 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#Casamento > p {
+    text-align: center;
+}
+.img1 {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+#Filhos{
+    background-color: darkblue;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px;
+    height: 120px;
+    margin-top: 40px;
+}
+#Filhos > h3 {
+    text-align: center;
+    padding: 20px;
+    color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+}
+#Filhos > h5 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#Filhos > p {
+    text-align: center;
+}
+.img2 {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+
+#Depressão{
+    background-color: darkblue;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px;
+    height: 150px;
+    margin-top: 40px;
+}
+#Depressão > h3 {
+    text-align: center;
+    padding: 20px;
+    color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+}
+#Depressão > h5 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#Depressão > p {
+    text-align: center;
+}
+.img3 {
+    width: 600px;
+    height: 340px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#Alcoolismo{
+    background-color: darkblue;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px 10px;
+    height: 170px;
+    margin-top: 40px;
+}
+#Alcoolismo > h3 {
+    text-align: center;
+    padding: 20px;
+    color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+}
+#Alcoolismo > h5 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#Alcoolismo > p {
+    text-align: center;
+}
+.img4{
+    width: 511,5px;
+    height: 288px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer > article{
+    background-color: black;
+    margin-top: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+footer > article > p{
+    color: white;
+    margin: 0 0 0 20px;
+}
