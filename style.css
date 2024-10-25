@@ -45,17 +45,16 @@ nav > a {
     font-size: 22px;
     
 }
-
-#casamento{
+.cabecalho{
     background-color: darkblue;
-    width: 1000px;
-    margin: 0 auto;
-    border-radius: 10px 10px 10px 10px;
-    height: 250px;
     margin-top: 40px;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    padding: 0 15px;
+    margin-bottom: 10px;
 }
 
-#casamento > h3 {
+.cabecalho > h3 {
     text-align: center;
     padding: 20px;
     color: orangered;
@@ -63,95 +62,9 @@ nav > a {
     font-weight: bold;
 }
 
-#casamento > h5 {
+.cabecalho > p {
     text-align: center;
-    color: white;
-    padding: 10px;
-}
-
-#casamento > p {
-    text-align: center;
-}
-
-#filhos{
-    background-color: darkblue;
-    width: 1000px;
-    margin: 0 auto;
-    border-radius: 10px 10px 10px 10px;
-    height: 120px;
-    margin-top: 40px;
-}
-
-#filhos > h3 {
-    text-align: center;
-    padding: 20px;
-    color: orangered;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-#filhos > h5 {
-    text-align: center;
-    color: white;
-    padding: 10px;
-}
-
-#filhos > p {
-    text-align: center;
-}
-
-#depressão{
-    background-color: darkblue;
-    width: 1000px;
-    margin: 0 auto;
-    border-radius: 10px 10px 10px 10px;
-    height: 150px;
-    margin-top: 40px;
-}
-
-#depressão > h3 {
-    text-align: center;
-    padding: 20px;
-    color: orangered;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-#depressão > h5 {
-    text-align: center;
-    color: white;
-    padding: 10px;
-}
-
-#depressão > p {
-    text-align: center;
-}
-
-#alcoolismo{
-    background-color: darkblue;
-    width: 1000px;
-    margin: 0 auto;
-    border-radius: 10px 10px 10px 10px;
-    height: 170px;
-    margin-top: 40px;
-}
-
-#alcoolismo > h3 {
-    text-align: center;
-    padding: 20px;
-    color: orangered;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-#alcoolismo > h5 {
-    text-align: center;
-    color: white;
-    padding: 10px;
-}
-
-#alcoolismo > p {
-    text-align: center;
+    padding-bottom: 20px;
 }
 
 footer > article{
@@ -164,13 +77,18 @@ footer > article > p{
     color: white;
     margin: 0 0 0 20px;
 }
-
 .container > img {
     max-height: 418px;
     max-width: 612px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    border-radius: 10px 10px 10px 10px;
-    margin-top: 40px;
+    border-radius: 10px 10px 10px 10px; 
+}
+ 
+.subcontainer {
+    padding: 15px;
+}
+.subcontainer > h4 {
+    margin-bottom: 10px;
 }
